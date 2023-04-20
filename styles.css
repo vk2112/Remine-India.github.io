@@ -1,0 +1,210 @@
+body {
+    font-family: "Montserrat-black", ;
+}
+
+#title {
+    background-color: #6ac083;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Monserrat-bold", ;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Monserrat-bold", ;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* navigation-bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat", ;
+}
+
+/* Download button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Features-section */
+
+#features {
+    padding: 100PX;
+    text-align: center;
+}
+
+.feature-column {
+    padding: 3% 2%;
+}
+
+.btn {
+    background-color: #6ac083;
+    color: white;
+}
+
+.green:hover {
+    color: #6ac083;
+}
+
+/*contact*/
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2%;
+}
+
+.form-name {
+    padding: 1% 41% 1% 1%;
+    margin: 1% 0;
+}
+
+.your-msg {
+    padding: 1% 41% 20% 1%;
+    margin: 1% 0;
+}
+
+.contactinfo {
+    margin-left: 20%;
+}
+
+.location {
+    height: 18px;
+    width: 24px;
+}
+
+.mail {
+    height: 18px;
+    width: 24px;
+}
+
+.microphone {
+    height: 18px;
+    width: 24px;
+}
+
+/* footer-section */
+#footer {
+    background-color: #6ac083;
+    color: white;
+    padding: 1% 15%;
+    text-align: center;
+}
+
+@media (max-width: 1255px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .green {
+        max-width: 100%;
+    }
+
+
+}
+
+@media (max-width: 736px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    .cardcontainer {
+        display: block;
+        justify-content: center;
+    }
+
+    #contact {
+        max-width: 105%;
+        margin-left: 7%;
+    }
+
+    .green {
+        align-items: center;
+    }
+
+    .contactinfo {
+        max-width: 85%;
+        margin-top: 10%;
+        margin-left: 0;
+
+    }
+
+}
+
+@media (max-width: 512px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    .cardcontainer {
+        display: block;
+        justify-content: center;
+    }
+
+    .green {
+        align-items: center;
+    }
+
+    .contactinfo {
+        max-width: 85%;
+        margin-top: 10%;
+        margin-left: 0;
+
+    }
+}
